@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FDC2FAF198424E2001E9616 /* libned.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDC2E6D198424E1001E9616 /* libned.a */; };
+		9FDC2FBA198424E2001E9616 /* ned_client.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2E7C198424E1001E9616 /* ned_client.h */; };
+		9FDC2FBF198424E2001E9616 /* nedc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2E81198424E1001E9616 /* nedc.h */; };
+		9FDC2FDD198424E2001E9616 /* fitsfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2EA6198424E1001E9616 /* fitsfile.h */; };
+		9FDC2FDF198424E2001E9616 /* fitsfile1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2EA8198424E1001E9616 /* fitsfile1.h */; };
+		9FDC2FE0198424E2001E9616 /* fitshead.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2EA9198424E1001E9616 /* fitshead.h */; };
+		9FDC2FF5198424E2001E9616 /* imio.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2EBE198424E1001E9616 /* imio.h */; };
+		9FDC2FFE198424E2001E9616 /* libwcs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDC2EC7198424E1001E9616 /* libwcs.a */; };
+		9FDC3002198424E2001E9616 /* lwcs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2ECB198424E1001E9616 /* lwcs.h */; };
+		9FDC3030198424E2001E9616 /* wcs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2EFE198424E2001E9616 /* wcs.h */; };
+		9FDC3032198424E2001E9616 /* wcscat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2F00198424E2001E9616 /* wcscat.h */; };
+		9FDC3033198424E2001E9616 /* wcscat1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2F01198424E2001E9616 /* wcscat1.h */; };
+		9FDC303A198424E2001E9616 /* wcslib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2F08198424E2001E9616 /* wcslib.h */; };
+		9FDC306119842573001E9616 /* ObjCWCS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC287219841F6E001E9616 /* ObjCWCS.m */; };
+		9FDC30621984262D001E9616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDC286719841F6E001E9616 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FDC286419841F6E001E9616 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9FDC286719841F6E001E9616 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FDC286819841F6E001E9616 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9FDC286919841F6E001E9616 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9FDC286C19841F6E001E9616 /* ObjCWCS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCWCS-Info.plist"; sourceTree = "<group>"; };
+		9FDC286E19841F6E001E9616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FDC287019841F6E001E9616 /* ObjCWCS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCWCS-Prefix.pch"; sourceTree = "<group>"; };
+		9FDC287119841F6E001E9616 /* ObjCWCS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCWCS.h; sourceTree = "<group>"; };
+		9FDC287219841F6E001E9616 /* ObjCWCS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCWCS.m; sourceTree = "<group>"; };
+		9FDC287919841F6E001E9616 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9FDC2CA6198420A3001E9616 /* libObjWCSLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjWCSLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDC2E6D198424E1001E9616 /* libned.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libned.a; sourceTree = "<group>"; };
+		9FDC2E7C198424E1001E9616 /* ned_client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ned_client.h; sourceTree = "<group>"; };
+		9FDC2E81198424E1001E9616 /* nedc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nedc.h; sourceTree = "<group>"; };
+		9FDC2EA6198424E1001E9616 /* fitsfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fitsfile.h; sourceTree = "<group>"; };
+		9FDC2EA8198424E1001E9616 /* fitsfile1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fitsfile1.h; sourceTree = "<group>"; };
+		9FDC2EA9198424E1001E9616 /* fitshead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fitshead.h; sourceTree = "<group>"; };
+		9FDC2EBE198424E1001E9616 /* imio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imio.h; sourceTree = "<group>"; };
+		9FDC2EC7198424E1001E9616 /* libwcs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwcs.a; sourceTree = "<group>"; };
+		9FDC2ECB198424E1001E9616 /* lwcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwcs.h; sourceTree = "<group>"; };
+		9FDC2EFE198424E2001E9616 /* wcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wcs.h; sourceTree = "<group>"; };
+		9FDC2F00198424E2001E9616 /* wcscat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wcscat.h; sourceTree = "<group>"; };
+		9FDC2F01198424E2001E9616 /* wcscat1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wcscat1.h; sourceTree = "<group>"; };
+		9FDC2F08198424E2001E9616 /* wcslib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wcslib.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FDC2CA3198420A3001E9616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDC30621984262D001E9616 /* Foundation.framework in Frameworks */,
+				9FDC2FAF198424E2001E9616 /* libned.a in Frameworks */,
+				9FDC2FFE198424E2001E9616 /* libwcs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FDC285719841F6E001E9616 = {
+			isa = PBXGroup;
+			children = (
+				9FDC2DD1198424E1001E9616 /* wcstools-3.8.7 */,
+				9FDC286A19841F6E001E9616 /* ObjCWCS */,
+				9FDC286B19841F6E001E9616 /* Supporting Files */,
+				9FDC286319841F6E001E9616 /* Frameworks */,
+				9FDC286219841F6E001E9616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FDC286219841F6E001E9616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FDC2CA6198420A3001E9616 /* libObjWCSLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FDC286319841F6E001E9616 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FDC286419841F6E001E9616 /* Cocoa.framework */,
+				9FDC287919841F6E001E9616 /* XCTest.framework */,
+				9FDC286619841F6E001E9616 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FDC286619841F6E001E9616 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FDC286719841F6E001E9616 /* Foundation.framework */,
+				9FDC286819841F6E001E9616 /* CoreData.framework */,
+				9FDC286919841F6E001E9616 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9FDC286A19841F6E001E9616 /* ObjCWCS */ = {
+			isa = PBXGroup;
+			children = (
+				9FDC287119841F6E001E9616 /* ObjCWCS.h */,
+				9FDC287219841F6E001E9616 /* ObjCWCS.m */,
+			);
+			path = ObjCWCS;
+			sourceTree = "<group>";
+		};
+		9FDC286B19841F6E001E9616 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FDC286C19841F6E001E9616 /* ObjCWCS-Info.plist */,
+				9FDC286D19841F6E001E9616 /* InfoPlist.strings */,
+				9FDC287019841F6E001E9616 /* ObjCWCS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = ObjCWCS;
+			sourceTree = "<group>";
+		};
+		9FDC2DD1198424E1001E9616 /* wcstools-3.8.7 */ = {
+			isa = PBXGroup;
+			children = (
+				9FDC2E68198424E1001E9616 /* libned */,
+				9FDC2E87198424E1001E9616 /* libwcs */,
+			);
+			path = "wcstools-3.8.7";
+			sourceTree = "<group>";
+		};
+		9FDC2E68198424E1001E9616 /* libned */ = {
+			isa = PBXGroup;
+			children = (
+				9FDC2E6D198424E1001E9616 /* libned.a */,
+				9FDC2E7C198424E1001E9616 /* ned_client.h */,
+				9FDC2E81198424E1001E9616 /* nedc.h */,
+			);
+			path = libned;
+			sourceTree = "<group>";
+		};
+		9FDC2E87198424E1001E9616 /* libwcs */ = {
+			isa = PBXGroup;
+			children = (
+				9FDC2EA6198424E1001E9616 /* fitsfile.h */,
+				9FDC2EA8198424E1001E9616 /* fitsfile1.h */,
+				9FDC2EA9198424E1001E9616 /* fitshead.h */,
+				9FDC2EBE198424E1001E9616 /* imio.h */,
+				9FDC2EC7198424E1001E9616 /* libwcs.a */,
+				9FDC2ECB198424E1001E9616 /* lwcs.h */,
+				9FDC2EFE198424E2001E9616 /* wcs.h */,
+				9FDC2F00198424E2001E9616 /* wcscat.h */,
+				9FDC2F01198424E2001E9616 /* wcscat1.h */,
+				9FDC2F08198424E2001E9616 /* wcslib.h */,
+			);
+			path = libwcs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9FDC2CA4198420A3001E9616 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDC3030198424E2001E9616 /* wcs.h in Headers */,
+				9FDC3033198424E2001E9616 /* wcscat1.h in Headers */,
+				9FDC2FDF198424E2001E9616 /* fitsfile1.h in Headers */,
+				9FDC3032198424E2001E9616 /* wcscat.h in Headers */,
+				9FDC2FE0198424E2001E9616 /* fitshead.h in Headers */,
+				9FDC2FDD198424E2001E9616 /* fitsfile.h in Headers */,
+				9FDC303A198424E2001E9616 /* wcslib.h in Headers */,
+				9FDC3002198424E2001E9616 /* lwcs.h in Headers */,
+				9FDC2FBF198424E2001E9616 /* nedc.h in Headers */,
+				9FDC2FF5198424E2001E9616 /* imio.h in Headers */,
+				9FDC2FBA198424E2001E9616 /* ned_client.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		9FDC30631984284A001E9616 /* wcstool */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = all;
+			buildConfigurationList = 9FDC30641984284A001E9616 /* Build configuration list for PBXLegacyTarget "wcstool" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/onekiloparsec/Apps/ObjCWCS/wcstools-3.8.7";
+			dependencies = (
+			);
+			name = wcstool;
+			passBuildSettingsInEnvironment = 1;
+			productName = wcstool;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		9FDC2CA5198420A3001E9616 /* ObjWCSLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDC2CA7198420A3001E9616 /* Build configuration list for PBXNativeTarget "ObjWCSLib" */;
+			buildPhases = (
+				9FDC2CA2198420A3001E9616 /* Sources */,
+				9FDC2CA3198420A3001E9616 /* Frameworks */,
+				9FDC2CA4198420A3001E9616 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjWCSLib;
+			productName = ObjWCSLib;
+			productReference = 9FDC2CA6198420A3001E9616 /* libObjWCSLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FDC285819841F6E001E9616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = onekiloparsec;
+			};
+			buildConfigurationList = 9FDC285B19841F6E001E9616 /* Build configuration list for PBXProject "ObjCWCS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FDC285719841F6E001E9616;
+			productRefGroup = 9FDC286219841F6E001E9616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FDC2CA5198420A3001E9616 /* ObjWCSLib */,
+				9FDC30631984284A001E9616 /* wcstool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FDC2CA2198420A3001E9616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDC306119842573001E9616 /* ObjCWCS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FDC286D19841F6E001E9616 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FDC286E19841F6E001E9616 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FDC288719841F6F001E9616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9FDC288819841F6F001E9616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9FDC2CA8198420A3001E9616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/wcslib-4.23/C",
+					"$(PROJECT_DIR)/wcstools-3.8.7/libwcs",
+					"$(PROJECT_DIR)/wcstools-3.8.7/libned",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FDC2CA9198420A3001E9616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/wcslib-4.23/C",
+					"$(PROJECT_DIR)/wcstools-3.8.7/libwcs",
+					"$(PROJECT_DIR)/wcstools-3.8.7/libned",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9FDC30651984284A001E9616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FDC30661984284A001E9616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FDC285B19841F6E001E9616 /* Build configuration list for PBXProject "ObjCWCS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDC288719841F6F001E9616 /* Debug */,
+				9FDC288819841F6F001E9616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDC2CA7198420A3001E9616 /* Build configuration list for PBXNativeTarget "ObjWCSLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDC2CA8198420A3001E9616 /* Debug */,
+				9FDC2CA9198420A3001E9616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDC30641984284A001E9616 /* Build configuration list for PBXLegacyTarget "wcstool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDC30651984284A001E9616 /* Debug */,
+				9FDC30661984284A001E9616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FDC285819841F6E001E9616 /* Project object */;
+}
