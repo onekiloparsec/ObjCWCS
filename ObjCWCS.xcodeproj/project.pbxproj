@@ -7,21 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9FDC2FAF198424E2001E9616 /* libned.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDC2E6D198424E1001E9616 /* libned.a */; };
 		9FDC2FBA198424E2001E9616 /* ned_client.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2E7C198424E1001E9616 /* ned_client.h */; };
 		9FDC2FBF198424E2001E9616 /* nedc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2E81198424E1001E9616 /* nedc.h */; };
 		9FDC2FDD198424E2001E9616 /* fitsfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2EA6198424E1001E9616 /* fitsfile.h */; };
 		9FDC2FDF198424E2001E9616 /* fitsfile1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2EA8198424E1001E9616 /* fitsfile1.h */; };
 		9FDC2FE0198424E2001E9616 /* fitshead.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2EA9198424E1001E9616 /* fitshead.h */; };
 		9FDC2FF5198424E2001E9616 /* imio.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2EBE198424E1001E9616 /* imio.h */; };
-		9FDC2FFE198424E2001E9616 /* libwcs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDC2EC7198424E1001E9616 /* libwcs.a */; };
 		9FDC3002198424E2001E9616 /* lwcs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2ECB198424E1001E9616 /* lwcs.h */; };
 		9FDC3030198424E2001E9616 /* wcs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2EFE198424E2001E9616 /* wcs.h */; };
 		9FDC3032198424E2001E9616 /* wcscat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2F00198424E2001E9616 /* wcscat.h */; };
 		9FDC3033198424E2001E9616 /* wcscat1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2F01198424E2001E9616 /* wcscat1.h */; };
 		9FDC303A198424E2001E9616 /* wcslib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDC2F08198424E2001E9616 /* wcslib.h */; };
 		9FDC306119842573001E9616 /* ObjCWCS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC287219841F6E001E9616 /* ObjCWCS.m */; };
-		9FDC30621984262D001E9616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDC286719841F6E001E9616 /* Foundation.framework */; };
+		9FDC306B19842B01001E9616 /* libwcs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDC306A19842B01001E9616 /* libwcs.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,12 +41,12 @@
 		9FDC2EA8198424E1001E9616 /* fitsfile1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fitsfile1.h; sourceTree = "<group>"; };
 		9FDC2EA9198424E1001E9616 /* fitshead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fitshead.h; sourceTree = "<group>"; };
 		9FDC2EBE198424E1001E9616 /* imio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imio.h; sourceTree = "<group>"; };
-		9FDC2EC7198424E1001E9616 /* libwcs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwcs.a; sourceTree = "<group>"; };
 		9FDC2ECB198424E1001E9616 /* lwcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lwcs.h; sourceTree = "<group>"; };
 		9FDC2EFE198424E2001E9616 /* wcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wcs.h; sourceTree = "<group>"; };
 		9FDC2F00198424E2001E9616 /* wcscat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wcscat.h; sourceTree = "<group>"; };
 		9FDC2F01198424E2001E9616 /* wcscat1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wcscat1.h; sourceTree = "<group>"; };
 		9FDC2F08198424E2001E9616 /* wcslib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wcslib.h; sourceTree = "<group>"; };
+		9FDC306A19842B01001E9616 /* libwcs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwcs.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FDC30621984262D001E9616 /* Foundation.framework in Frameworks */,
-				9FDC2FAF198424E2001E9616 /* libned.a in Frameworks */,
-				9FDC2FFE198424E2001E9616 /* libwcs.a in Frameworks */,
+				9FDC306B19842B01001E9616 /* libwcs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,11 +142,11 @@
 		9FDC2E87198424E1001E9616 /* libwcs */ = {
 			isa = PBXGroup;
 			children = (
+				9FDC306A19842B01001E9616 /* libwcs.a */,
 				9FDC2EA6198424E1001E9616 /* fitsfile.h */,
 				9FDC2EA8198424E1001E9616 /* fitsfile1.h */,
 				9FDC2EA9198424E1001E9616 /* fitshead.h */,
 				9FDC2EBE198424E1001E9616 /* imio.h */,
-				9FDC2EC7198424E1001E9616 /* libwcs.a */,
 				9FDC2ECB198424E1001E9616 /* lwcs.h */,
 				9FDC2EFE198424E2001E9616 /* wcs.h */,
 				9FDC2F00198424E2001E9616 /* wcscat.h */,
